@@ -55,7 +55,6 @@ def get_cot_data(currency):
     cot_data[currency] = {}
     cot_data[currency]["long"] = long
     cot_data[currency]["short"] = short
-    cot_data = json.dump(cot_data)
 
 
 def get_retail_data():
